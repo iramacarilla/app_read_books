@@ -2,7 +2,8 @@ import axios from 'axios';
 
 class bookReadApi {
     constructor() {
-        axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
+        /*axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;*/
+        axios.defaults.baseURL = 'https://app-rbook.herokuapp.com/api';
     }
 
     reg(newUser) {
